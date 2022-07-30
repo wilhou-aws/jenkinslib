@@ -11,7 +11,3 @@ def PrintMes(value,color){
     }
 }
 
-//ansible
-def AnsibleDeploy(hosts,func){
-    sh "ansible -m ${func} ${hosts}"
-}
